@@ -10,10 +10,15 @@ main {
     border: solid 1px;
     border-radius: 50px;
     background-color: white;
-    width: 22em;
+    margin: 8em;
+    max-width: 25em;
     height: 35em;
     padding: 25px;
     box-shadow: black 10px 10px;
+}
+
+main:hover{
+    box-shadow: black 20px 20px;
 }
 
 #img-main {
